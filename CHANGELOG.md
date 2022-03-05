@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* It is first null safe release of this package based on a discontinued package.

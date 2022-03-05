@@ -1,7 +1,7 @@
 name: ticket_widget
 description: Ui package to make a beautiful ticket like animated widget
 version: 0.0.1
-homepage:
+homepage: https://github.com/DholaSain/Ticket-Widget
 
 environment:
   sdk: ">=2.16.0 <3.0.0"

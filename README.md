@@ -1,39 +1,68 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# ✨ Ticket Widget
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+[![Say Thanks!](https://www.pngkey.com/png/detail/72-722799_instagram-button-follow-us-on-instagram-logo-png.png)](https://instagram.com/dholasain)  <a href="https://instagram.com/dholasain"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" width="50"></a>
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+Flutter package which helps you to implement Ticket Widget in your app.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+The source code is **100% Dart**, and it is an updated null safe version of [ticket_widget](https://pub.dev/packages/flutter_ticket_widget) folder.
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Show some :heart: and star the repo to support the project
 
-## Getting started
+ [![GitHub followers](https://img.shields.io/github/followers/dholasain.svg?style=social&label=Follow)](https://github.com/dholasain)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 
-## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+## 🎖 Installing
 
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  ticket_widget: ^0.0.1
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+## ⚡️ Import
+
+```dart
+import 'package:ticket_widget/ticket_widget.dart';
+```
+
+
+## 🎮 How To Use
+
+```dart
+TicketWidget(
+    width: 350,
+    height: 500,
+    isCornerRounded: true,
+    padding: EdgeInsets.all(20),
+    child: TicketData(),
+),
+```
+
+
+## Screenshots
+
+| Ticket Widget                                                                                                          |
+|-----------------------------------------------------------------------------------------------------------------------------|
+| ![ticket_widget](https://raw.githubusercontent.com/DholaSain/Ticket-Widget/main/example_image.png) |
+
+
+## 👨 Developed By
+
+```
+Hafiz M Mujahid aka DholaSain
+```
+
+
+## 🐛 Bugs/Requests
+
+If you encounter any problems feel free to open an issue. If you feel the library is
+missing a feature, please raise a ticket on Github and I'll look into it.
+Pull request are also welcome.
+
+
+## ⭐️ License
+
+MIT License
