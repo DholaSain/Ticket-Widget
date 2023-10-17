@@ -1,6 +1,6 @@
 name: ticket_widget
 description: Ui package to make a beautiful ticket like animated widget
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/DholaSain/Ticket-Widget
 
 environment:
