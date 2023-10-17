@@ -45,7 +45,7 @@ TicketWidget(
 | Ticket Widget                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | ![ticket_widget](https://raw.githubusercontent.com/DholaSain/Ticket-Widget/main/example_image.png) |
-<img src="example_image.png" width="100em" />
+<img src="example_image.png" width="400em" />
 
 
 ## 👨 Developed By
