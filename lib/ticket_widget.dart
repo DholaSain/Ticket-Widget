@@ -43,9 +43,7 @@ class _TicketWidgetState extends State<TicketWidget> {
         decoration: BoxDecoration(
           boxShadow: widget.shadow,
           color: widget.color,
-          borderRadius: widget.isCornerRounded
-              ? BorderRadius.circular(20.0)
-              : BorderRadius.circular(0.0),
+          borderRadius: widget.isCornerRounded ? BorderRadius.circular(20.0) : BorderRadius.circular(0.0),
         ),
       ),
     );
@@ -61,10 +59,8 @@ class TicketClipper extends CustomClipper<Path> {
     path.lineTo(size.width, size.height);
     path.lineTo(size.width, 0.0);
 
-    path.addOval(
-        Rect.fromCircle(center: Offset(0.0, size.height / 2), radius: 20.0));
-    path.addOval(Rect.fromCircle(
-        center: Offset(size.width, size.height / 2), radius: 20.0));
+    path.addOval(Rect.fromCircle(center: Offset(0.0, size.height / 2), radius: 20.0));
+    path.addOval(Rect.fromCircle(center: Offset(size.width, size.height / 2), radius: 20.0));
 
     return path;
   }

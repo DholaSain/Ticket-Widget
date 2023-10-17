@@ -64,12 +64,11 @@ class TicketData extends StatelessWidget {
                 ),
               ),
             ),
-            Row(
-              children: const [
+            const Row(
+              children: [
                 Text(
                   'LHR',
-                  style: TextStyle(
-                      color: Colors.black, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 8.0),
@@ -82,8 +81,7 @@ class TicketData extends StatelessWidget {
                   padding: EdgeInsets.only(left: 8.0),
                   child: Text(
                     'ISL',
-                    style: TextStyle(
-                        color: Colors.black, fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
                   ),
                 )
               ],
@@ -94,10 +92,7 @@ class TicketData extends StatelessWidget {
           padding: EdgeInsets.only(top: 20.0),
           child: Text(
             'Flight Ticket',
-            style: TextStyle(
-                color: Colors.black,
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
         ),
         Padding(
@@ -105,8 +100,7 @@ class TicketData extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              ticketDetailsWidget(
-                  'Passengers', 'Hafiz M Mujahid', 'Date', '28-08-2022'),
+              ticketDetailsWidget('Passengers', 'Hafiz M Mujahid', 'Date', '28-08-2022'),
               Padding(
                 padding: const EdgeInsets.only(top: 12.0, right: 52.0),
                 child: ticketDetailsWidget('Flight', '76836A45', 'Gate', '66B'),
@@ -123,10 +117,8 @@ class TicketData extends StatelessWidget {
           child: Container(
             width: 250.0,
             height: 60.0,
-            decoration: const BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage('assets/barcode.png'),
-                    fit: BoxFit.cover)),
+            decoration:
+                const BoxDecoration(image: DecorationImage(image: AssetImage('assets/barcode.png'), fit: BoxFit.cover)),
           ),
         ),
         const Padding(
@@ -145,8 +137,7 @@ class TicketData extends StatelessWidget {
   }
 }
 
-Widget ticketDetailsWidget(String firstTitle, String firstDesc,
-    String secondTitle, String secondDesc) {
+Widget ticketDetailsWidget(String firstTitle, String firstDesc, String secondTitle, String secondDesc) {
   return Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
