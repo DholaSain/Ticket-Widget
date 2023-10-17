@@ -1,7 +1,5 @@
 # ✨ Ticket Widget
 
-[![Say Thanks!](https://www.pngkey.com/png/detail/72-722799_instagram-button-follow-us-on-instagram-logo-png.png)](https://instagram.com/dholasain)  <a href="https://instagram.com/dholasain"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" width="50"></a>
-
 Flutter package which helps you to implement Ticket Widget in your app.
 
 The source code is **100% Dart**, and it is an updated null safe version of [ticket_widget](https://pub.dev/packages/flutter_ticket_widget) folder.
@@ -47,6 +45,7 @@ TicketWidget(
 | Ticket Widget                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | ![ticket_widget](https://raw.githubusercontent.com/DholaSain/Ticket-Widget/main/example_image.png) |
+<img src="example_image.png" width="100em" />
 
 
 ## 👨 Developed By
